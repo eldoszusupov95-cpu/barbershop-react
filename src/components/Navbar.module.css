@@ -1,0 +1,83 @@
+.nav {
+  background: var(--dark);
+  padding: 0 1.5rem;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--white);
+  cursor: pointer;
+  user-select: none;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.88rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.15s;
+}
+
+.links a:hover {
+  color: var(--white);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #ccc;
+  font-size: 0.85rem;
+}
+
+.btnLogin {
+  background: transparent;
+  border: 1.5px solid #555;
+  color: var(--white);
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.btnLogin:hover { border-color: #aaa; }
+
+.btnRegister {
+  background: var(--gold);
+  border: none;
+  color: var(--white);
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.btnRegister:hover { background: var(--gold-light); }
+
+.btnLogout {
+  background: transparent;
+  border: 1.5px solid #555;
+  color: var(--white);
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+.btnLogout:hover { border-color: #aaa; }

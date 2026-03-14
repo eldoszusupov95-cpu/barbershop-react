@@ -1,0 +1,137 @@
+.page {
+  padding: 2rem 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+  min-height: calc(100vh - 56px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.8rem;
+}
+
+.header h2 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.header p {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-top: 3px;
+}
+
+.btnNew {
+  background: var(--gold);
+  border: none;
+  color: var(--white);
+  padding: 9px 18px;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.btnNew:hover { background: var(--gold-light); }
+
+/* Booking item */
+.item {
+  background: var(--white);
+  border-radius: 14px;
+  padding: 1.2rem 1.3rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.itemTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.badge {
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.pending {
+  background: #fff8e1;
+  color: #e6a800;
+  border: 1px solid #ffe082;
+}
+
+.cancelled {
+  background: #fce4ec;
+  color: var(--danger);
+  border: 1px solid #ffcdd2;
+}
+
+.created {
+  font-size: 0.76rem;
+  color: var(--muted);
+}
+
+.item h3 {
+  font-size: 0.97rem;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.master {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-bottom: 1rem;
+}
+
+.meta {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.metaItem label {
+  display: block;
+  font-size: 0.67rem;
+  font-weight: 700;
+  color: var(--muted);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.metaItem span {
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.gold { color: var(--gold); }
+
+.btnCancel {
+  width: 100%;
+  background: transparent;
+  border: 1.5px solid #ffcdd2;
+  color: var(--danger);
+  padding: 9px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+.btnCancel:hover { background: #fce4ec; }
+
+/* Empty state */
+.empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--muted);
+}
+
+.emptyIcon {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
